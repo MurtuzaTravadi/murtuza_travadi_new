@@ -1,0 +1,31 @@
+.main{
+    font-family: cursive;
+    font-size: medium;
+    font-weight:lighter;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center; /* Center items vertically */
+    justify-content: space-between; /* Distribute items evenly along the main axis */
+    color: white;
+    background-color: #3e3e42;
+    padding: 5px;
+  }
+  
+  .display {
+    flex: 1; /* Takes up remaining space */
+    text-align: center; /* Centers text horizontally */
+  }
+  
+  .MinMaxClose {
+    margin-left: 10px; /* Adjust the margin as per your layout */
+  }
+  
+  .MinMaxClose div {
+    display: inline-block; /* Ensures the div takes only the required width */
+    border: 2px solid #ffffff; /* Border style */
+    border-radius: 5px; /* Rounded corners */
+    padding: 5px; /* Optional: Adds padding inside the box */
+  }
+  

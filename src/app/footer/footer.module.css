@@ -1,0 +1,39 @@
+/* footer.module.css */
+
+.footer {
+  background-color: #252526;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.contact {
+  text-align: center;
+}
+
+.socialLinks {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 1rem;
+}
+
+.socialLinks li {
+  display: inline-block;
+  margin-right: 1rem;
+  vertical-align: middle; /* Align icons vertically with text */
+}
+
+.socialLinks li:last-child {
+  margin-right: 0;
+}
+
+.socialLinks a {
+  color: white;
+  text-decoration: none;
+}
+
+.socialLinks a:hover {
+  text-decoration: underline;
+}

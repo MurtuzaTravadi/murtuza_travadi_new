@@ -1,0 +1,38 @@
+/* Nav.module.css */
+
+.Nav {
+  background-color: #1e1e1e; /* Background color of the navigation bar */
+  padding: 0.5rem; /* Padding around the navigation items */
+}
+
+.Nav ul {
+  list-style-type: none; /* Remove default list styling */
+  padding: 0;
+  margin: 0;
+}
+
+.Nav li {
+  display: inline-block; /* Display navigation items horizontally */
+  margin-right: 5px; /* Adjust the spacing between navigation items */
+  color: white; /* Text color of buttons */
+  color: white !important;
+}
+
+.Nav li {
+  background-color: transparent; /* Transparent background */
+  border: 1px solid transparent; /* Add border to buttons */
+  border-radius: 3px; /* Rounded corners for buttons */
+  padding: 0.5rem 1rem; /* Padding inside buttons */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  color: white !important;
+}
+
+.Nav li.active {
+  background-color: #2d2d30; /* Background color when button is active */
+  border-color: #2d2d30; /* Border color when button is active */
+}
+
+.Nav li:hover {
+  background-color: #2d2d30; /* Background color when button is hovered */
+  border-color: #2d2d30; /* Border color when button is hovered */
+}
